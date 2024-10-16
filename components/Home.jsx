@@ -4,7 +4,7 @@ import SearchBar from './SearchBar'
 import SelectMenu from './SelectMenu'
 import CountriesList from './CountriesList'
 import { useWindowSize } from '../hooks/useWindowSize'
-import { useTheme } from '../hooks/usetheme'
+import { useTheme } from '../hooks/useTheme'
 
 const Home = () => {
   const [query, setQuery] = useState('')
